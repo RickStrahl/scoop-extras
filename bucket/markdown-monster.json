@@ -6,8 +6,8 @@
         "identifier": "Proprietary",
         "url": "https://markdownmonster.west-wind.com/purchase.aspx#License"
     },
-    "url": "https://west-wind.com/files/MarkdownMonsterPortable.zip",
-    "hash": "22206ae4f639aea19a275a0a74b05c06a4e9ad0984a475f16f64e24beb34c2c8",
+    "url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterSetup.exe",
+    "hash": "30A2911AE377F1CE408DEAAC439F4A1F7CAC2B64B7977FC01FE53E30A0854DF4",
     "bin": [
         "mm.exe",
         "MarkdownMonster.exe"
@@ -20,10 +20,11 @@
     ],
     "persist": "PortableSettings",
     "checkver": {
-        "url": "https://markdownmonster.west-wind.com/download.aspx",
+        "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml",
         "regex": "<[vV]ersion>([\\d.]+)</[vV]ersion>"
     },
+    "isInnoSetup": true,
     "autoupdate": {
-        "url": "https://west-wind.com/files/MarkdownMonsterPortable.zip"
+        "url": "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterSetup.exe"
     }
 }
